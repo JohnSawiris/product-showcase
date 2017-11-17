@@ -16,7 +16,7 @@ _This is a website showcases watches, it sets elements on the page using floats 
 ### Elements Used
 
 | Term | Description | Implementation |
-| ----- |:------------:| ------------:|
+| ----- |:------------:|:-----------|
 | Box-Sizing | Tells the browser what parts of the box model to include | I applied it to everything|
 | Float | Float takes elements out the normal flow and let them float left or right | I applied it on the NAV links and the images in the grid |
 | Display: block | It lets elements behave as a block level element | I applied it on the clear fix and also on the image so I'd be able to center them |

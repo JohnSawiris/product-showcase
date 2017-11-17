@@ -28,7 +28,7 @@ ul li {
   margin: 0 20px;
   position: absolute;
   top: 10px;
-  left: 40.5%;
+  left: 42.5%;
   letter-spacing: 2px;
   font-weight: 300;
 }
@@ -73,4 +73,35 @@ ul.float-right li {
 
 .float-left {
   float: left;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero {
+  width: 100%;
+  position: relative;
+  background-color: #efefef;
+  padding:22px 0;
+}
+
+.hero-title {
+  position: absolute;
+  top: 91%;
+  left: 38%;
+  color: #111;
+  letter-spacing: 2px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-size: 2em;
+  font-family: 'Vollkorn SC', serif;
+}
+
+.hero-img {
+  width: 55%;
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
 }

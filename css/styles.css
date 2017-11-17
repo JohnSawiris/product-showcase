@@ -5,6 +5,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #efefef;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -33,7 +34,7 @@ ul li {
   font-weight: 300;
 }
 
-nav.navigation:after {
+.clear-fix:after {
   content: "";
   display: block;
   clear: both;
@@ -89,7 +90,7 @@ ul.float-right li {
 
 .hero-title {
   position: absolute;
-  top: 91%;
+  top: 90%;
   left: 38%;
   color: #111;
   letter-spacing: 2px;
@@ -103,5 +104,98 @@ ul.float-right li {
   width: 55%;
   display: block;
   max-width: 100%;
-  margin: 0 auto;
+}
+
+.form {
+  width: 35%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2em;
+  margin-top: 1em;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.form h2 {
+  color: #999;
+}
+
+.input {
+  padding: 15px;
+}
+
+.input input {
+  display: block;
+  width: 80%;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.input label {
+  font-size: 1.3em;
+  color: #888;
+}
+
+.sign-up {
+  padding: 10px 15px;
+  width: 30%;
+  display: block;
+  margin-top: 1em;
+  margin-left: 1em;
+  border-radius: 5px;
+  background-color: #01b501;
+  color: #fff;
+  font-size: 1.1em;
+  transition: all .3s ease-in-out;
+}
+
+button.sign-up:hover {
+  background-color: #019201;
+}
+
+.main {
+  width: 95%;
+  margin: auto;
+}
+
+.main div.float-left{
+  width: 33.33%;
+  background-color: #1a3a5a;
+  height: 472px;
+}
+
+.main div.float-left:nth-child(even) {
+  background-color: #efefef;
+}
+
+.main-image {
+  display: block;
+  margin: auto;
+  width: 55%;
+  padding-top: 60px;
+}
+
+.summary {
+  color: #fff;
+  padding: 1em 2em;;
+  text-align: justify;
+}
+
+.main div.float-left:nth-child(even) p {
+  color: #999;
+}
+
+.footer {
+  color: #eee;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: #333;
+  height: 100px;
+  padding-top: 40px;
+}
+
+.footer p {
+  margin: 0;
+  letter-spacing: 2px;
+  font-weight: 300;
 }

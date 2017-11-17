@@ -116,6 +116,7 @@ ul.float-right li {
 }
 
 .form h2 {
+  margin-bottom: 0;
   color: #999;
   text-align: center;
 }
@@ -168,6 +169,7 @@ button.sign-up:hover {
   width: 33.33%;
   background-color: #1a3a5a;
   height: 472px;
+  border: 1px solid #e6e3e3;
 }
 
 .main div.float-left:nth-child(even) {
@@ -200,7 +202,7 @@ button.sign-up:hover {
   padding-top: 40px;
 }
 
-.footer p {
+.footer > p {
   margin: 0;
   letter-spacing: 2px;
   font-weight: 300;
